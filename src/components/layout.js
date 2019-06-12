@@ -10,16 +10,9 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
-function Footer() {
- return(
-  <footer>© {new Date().getFullYear()}, Built with
-  {` `}
-  <a href="https://www.gatsbyjs.org">Gatsby</a>
-  </footer>
- )
-}
 
 const Layout = ({ children }) => (
   <StaticQuery

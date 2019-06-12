@@ -6,21 +6,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-function Question() {
-  return <p> Can I do this in REact?</p>
-  
-}
-function NavBar() {
-  return <nav>Here is the navbar</nav>
-}
 
 function IndexPage() {
   return (
     <Layout> Hello
       <p>fun</p>
-      <Question />
-      <Question />
-      <Opinion />
       <nav> Here is a nav bar</nav>
       <Link to="/page-3/">Go to page 3</Link>
     </Layout>
